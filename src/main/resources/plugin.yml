@@ -1,0 +1,11 @@
+name: Plugin
+version: '${project.version}'
+main: gb.goingtoheck.plugin.Plugin
+api-version: 1.18
+authors: [ GoingToHeck ]
+commands:
+  echo:
+    description: Echo's the players text back to them
+    usage: /echo <text>
+    permission: plugin.echo
+    permission-message: You do not have <permission>!
